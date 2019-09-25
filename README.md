@@ -12,7 +12,7 @@ Alguns requisitos são previamente definidos, antes do início do desenvolviment
 
 Espera-se a criação de uma extensão de arquivo customizada, **`.hion`**.
 
-Esse formato de arquivo será baseado em arquivos JSON, com a construção de um - único - objeto raiz, equivalente à tag `html` (e suas propriedades relacionadas, como `lang` e `doctype`).
+Esse formato de arquivo será baseado em arquivos JSON, com a construção de um - único - objeto raiz, equivalente à tag `html` (e suas propriedades relacionadas, como `lang` e `doctype`) - passível de alterações com base no método de aplicação prática da ferramenta.
 
 
 ## Importação da ferramenta
