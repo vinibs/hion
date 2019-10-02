@@ -1,3 +1,4 @@
+![alt text](img/logo.jpeg)
 # HiON
 ### Hypertext in Object Notation
 
