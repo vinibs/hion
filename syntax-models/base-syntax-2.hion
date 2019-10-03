@@ -13,7 +13,7 @@ content:
             'Olá mundo!'
 
 
-# Separador de blocos: 2 linhas em branco ('\n' ou '\n\r')
+# Separador de blocos: 2 quebras de linha ('\n' ou '\n\r')
 # Identificador de bloco de conteúdo: propriedade 'content'
 # Marcador de comentário de linha: '#'
 # Separador de propriedades: nova linha ('\n' ou '\n\r')
