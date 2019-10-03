@@ -1,0 +1,23 @@
+header
+charset: 'utf-8'
+title: 'Teste de header'
+viewport: 'width=device-width',
+
+
+body
+style: 'background-color: red'
+[
+    h2 [ 'Olá mundo!' ],
+
+    div [ 
+        p [ 'Estou vivo!' ] 
+    ]
+]
+
+# Separador de blocos: ','
+# Identificador de bloco de conteúdo: '[' e ']'
+# Marcador de comentário de linha: '#'
+# Separador de propriedades: nova linha ('\n' ou '\n\r')
+# Separador de propriedade e valor: ':'
+# Identificador do tipo do objeto: propriedade única (sem valor declarado)
+# Permitir uso de '{' e '}' para permitir folding sem interferir em funcionalidade

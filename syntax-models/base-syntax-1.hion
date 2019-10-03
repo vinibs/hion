@@ -22,3 +22,5 @@
         }
     ]
 }
+
+# Padrão JSON com atributos básicos fixos (obj, content, charset, title...)

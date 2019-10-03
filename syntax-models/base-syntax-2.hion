@@ -1,0 +1,22 @@
+base
+content: 
+    header
+    charset: 'utf-8'
+    title: 'Teste de header'
+    viewport: 'width=device-width'
+
+    body
+    style: 'background-color: red'
+    content:
+        h2
+        content:
+            'Olá mundo!'
+
+
+# Separador de blocos: 2 linhas em branco ('\n' ou '\n\r')
+# Identificador de bloco de conteúdo: propriedade 'content'
+# Marcador de comentário de linha: '#'
+# Separador de propriedades: nova linha ('\n' ou '\n\r')
+# Separador de propriedade e valor: ':'
+# Identificador do tipo do objeto: propriedade única (sem valor declarado)
+# Permitir uso de '{' e '}' para permitir folding sem interferir em funcionalidade
