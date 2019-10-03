@@ -1,7 +1,7 @@
 # HiON
 ### Hypertext in Object Notation
 
-![HiON Logo](docs/assets/img/logo.png =250x)
+![HiON Logo](docs/assets/img/logo.png)
 
 ---
 
