@@ -20,4 +20,4 @@ style: 'background-color: red'
 # Separador de propriedades: nova linha ('\n' ou '\n\r')
 # Separador de propriedade e valor: ':'
 # Identificador do tipo do objeto: propriedade única (sem valor declarado)
-# Permitir uso de '{' e '}' para permitir folding sem interferir em funcionalidade
+# Permitir uso de '{' e '}' para folding sem interferir em funcionalidade
