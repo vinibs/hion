@@ -1,0 +1,24 @@
+{
+    obj: 'base',
+    content: [
+        {
+            obj: 'header',
+            charset: 'utf-8',
+            title: 'Teste de header',
+            viewport: 'width=device-width',
+            styles: [
+                { obj: 'css', path: './styles/main.css' }
+            ],
+            scripts: [
+                { obj: 'js', path: './scripts/default.js' }
+            ],
+        },
+        {
+            obj: 'body',
+            style: 'background-color: red',
+            content: [
+                { obj: 'h2', content: 'Olá mundo!' }
+            ]
+        }
+    ]
+}
