@@ -1,14 +1,16 @@
-![alt text](img/logo.jpeg)
 # HiON
 ### Hypertext in Object Notation
+
+![HiON Logo](docs/assets/img/logo.png =250x)
+
+---
 
 ## Uma maneira diferente de escrever páginas HTML estáticas
 
 A ideia do projeto é criar uma ferramenta de conversão de código em notação de objetos (como JSON) em código HTML (aplicadas boas práticas).
 
 Alguns requisitos são previamente definidos, antes do início do desenvolvimento. Esses requisitos são listados abaixo.
-
-
+ 
 ## Extensão customizada do arquivo
 
 Espera-se a criação de uma extensão de arquivo customizada, **`.hion`**.
