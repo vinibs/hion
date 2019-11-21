@@ -1,0 +1,34 @@
+
+header {
+    charset: 'utf-8',
+    title: 'Teste de header',
+    viewport: 'width=device-width'
+}
+
+body {
+    style: { 
+        background-color: red 
+    }
+    content: {
+        h2 { 'Olá mundo!' }, # Forma reduzida do bloco 'content'
+
+        div { h3 { '"Hello World", se preferir' } }, # Forma reduzida com objeto interno
+
+        div {
+            content: {
+                p {
+                    content: 'Estou vivo!'
+                }
+            }
+        }
+    }
+}
+
+# Padrão baseado na sintaxe de CSS
+
+# Separador de blocos: '{' e '}'
+# Identificador do tipo do objeto: nome anterior aos identificadores de bloco
+# Identificador de bloco de conteúdo: propriedade 'content'
+# Marcador de comentário de linha: '#'
+# Separador de propriedades: ',' (na a última propriedade sendo opcional)
+# Separador de propriedade e valor: ':'
