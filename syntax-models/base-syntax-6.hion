@@ -1,0 +1,32 @@
+[
+    {
+        tag: 'head',
+        props: {},
+        children: [
+            { tag: 'meta', props: { charset: 'utf-8' } },
+            {
+                tag: 'title',
+                props: {},
+                children: [
+                    'Título da página'
+                ]
+            }
+        ]
+    },
+    
+    {
+        tag: 'body',
+        props: { id: 'page-body' },
+        children: [
+            {
+                tag: 'h1',
+                props: { class: 'main-title' },
+                children: [
+                    'Texto da página'
+                ]
+            }
+        ]
+    }
+]
+    
+# Baseado no formato JSON usado na construção de virtual DOM
